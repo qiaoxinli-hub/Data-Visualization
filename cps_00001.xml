@@ -1,0 +1,2631 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ipums-ddi-xslt.xsl"?>
+<codeBook ID="ddi2-08150cc0-9d0d-013f-3723-02420a1c0306-cps_00001.dat-cps.ipums.org" version="2.5" xmlns="ddi:codebook:2_5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="ddi:codebook:2_5 http://www.ddialliance.org/Specification/DDI-Codebook/2.5/XMLSchema/codebook.xsd">
+  <docDscr>
+    <citation>
+      <titlStmt>
+        <titl>Codebook for an IPUMS CPS Data Extract</titl>
+        <subTitl>DDI 2.5 metadata describing the extract file  'cps_00001.dat'</subTitl>
+        <IDNo>ddi2-08150cc0-9d0d-013f-3723-02420a1c0306-cps_00001.dat-cps.ipums.org</IDNo>
+      </titlStmt>
+      <rspStmt>
+        <AuthEnty affiliation="University of Minnesota">IPUMS</AuthEnty>
+      </rspStmt>
+      <prodStmt>
+        <producer abbr="IPUMS" affiliation="University of Minnesota" role="Documentation">IPUMS</producer>
+        <prodDate date="2026-09-28">September 28, 2026</prodDate>
+        <prodPlac>IPUMS, 50 Willey Hall, 225 - 19th Avenue South, Minneapolis, MN 55455</prodPlac>
+      </prodStmt>
+      <distStmt>
+        <contact URI="https://ipums.org" affiliation="University of Minnesota">IPUMS</contact>
+      </distStmt>
+    </citation>
+  </docDscr>
+  <stdyDscr>
+    <citation>
+      <titlStmt>
+        <titl>User Extract cps_00001.dat</titl>
+      </titlStmt>
+      <rspStmt>
+        <AuthEnty affiliation="University of Minnesota">IPUMS</AuthEnty>
+      </rspStmt>
+      <prodStmt>
+        <producer abbr="IPUMS" affiliation="University of Minnesota" role="Documentation">IPUMS</producer>
+        <prodDate date="2026-09-28">September 28, 2026</prodDate>
+        <prodPlac>IPUMS, 50 Willey Hall, 225 - 19th Avenue South, Minneapolis, MN 55455</prodPlac>
+      </prodStmt>
+      <distStmt>
+        <contact URI="https://ipums.org" affiliation="University of Minnesota">IPUMS</contact>
+      </distStmt>
+      <serStmt>
+        <serName abbr="cps">IPUMS CPS</serName>
+        <serInfo>DOI:10.18128/D030.V13.0</serInfo>
+      </serStmt>
+      <verStmt>
+        <version date="2026-09-28"/>
+      </verStmt>
+    </citation>
+    <stdyInfo>
+      <subject>
+        <topcClas vocab="IPUMS">Technical Variables -- HOUSEHOLD</topcClas>
+        <topcClas vocab="IPUMS">Linking Variables -- HOUSEHOLD</topcClas>
+        <topcClas vocab="IPUMS">Technical Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Linking Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Demographics Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Work Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Income Variables -- PERSON</topcClas>
+      </subject>
+      <sumDscr ID="sdatref-2341">
+        <timePrd date="1983-03" event="single">1983-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2342">
+        <timePrd date="1984-03" event="single">1984-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2343">
+        <timePrd date="1985-03" event="single">1985-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2344">
+        <timePrd date="1986-03" event="single">1986-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2345">
+        <timePrd date="1987-03" event="single">1987-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2346">
+        <timePrd date="1988-03" event="single">1988-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2347">
+        <timePrd date="1989-03" event="single">1989-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2348">
+        <timePrd date="1990-03" event="single">1990-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2349">
+        <timePrd date="1991-03" event="single">1991-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2350">
+        <timePrd date="1992-03" event="single">1992-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2351">
+        <timePrd date="1993-03" event="single">1993-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2352">
+        <timePrd date="1994-03" event="single">1994-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2353">
+        <timePrd date="1995-03" event="single">1995-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2354">
+        <timePrd date="1996-03" event="single">1996-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2355">
+        <timePrd date="1997-03" event="single">1997-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2356">
+        <timePrd date="1998-03" event="single">1998-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2357">
+        <timePrd date="1999-03" event="single">1999-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2358">
+        <timePrd date="2000-03" event="single">2000-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2359">
+        <timePrd date="2001-03" event="single">2001-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2360">
+        <timePrd date="2002-03" event="single">2002-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2361">
+        <timePrd date="2003-03" event="single">2003-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2362">
+        <timePrd date="2004-03" event="single">2004-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2363">
+        <timePrd date="2005-03" event="single">2005-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2364">
+        <timePrd date="2006-03" event="single">2006-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2367">
+        <timePrd date="2007-03" event="single">2007-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2366">
+        <timePrd date="2008-03" event="single">2008-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2368">
+        <timePrd date="2009-03" event="single">2009-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2369">
+        <timePrd date="2010-03" event="single">2010-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2467">
+        <timePrd date="2011-03" event="single">2011-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2640">
+        <timePrd date="2012-03" event="single">2012-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2656">
+        <timePrd date="2013-03" event="single">2013-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2737">
+        <timePrd date="2014-03" event="single">2014-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2899">
+        <timePrd date="2015-03" event="single">2015-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2912">
+        <timePrd date="2016-03" event="single">2016-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2936">
+        <timePrd date="2017-03" event="single">2017-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2949">
+        <timePrd date="2018-03" event="single">2018-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2963">
+        <timePrd date="2019-03" event="single">2019-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2977">
+        <timePrd date="2020-03" event="single">2020-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2993">
+        <timePrd date="2021-03" event="single">2021-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-3010">
+        <timePrd date="2022-03" event="single">2022-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-3023">
+        <timePrd date="2023-03" event="single">2023-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 1983
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 1984
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 1985
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 1986
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 1987
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 1988
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 1989
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 1990
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 1991
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 1992
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 1993
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 1994
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 1995
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 1996
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 1997
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 1998
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 1999
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2000
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2001
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2002
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2003
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2004
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2005
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2006
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2007
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2008
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2009
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2010
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2011
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2012
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2013
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2014
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2015
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2016
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2017
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2018
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2019
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2020
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2021
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2022
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2023
+]]></notes>
+    </stdyInfo>
+    <dataAccs>
+      <useStmt>
+        <confDec required="no"><![CDATA[None]]></confDec>
+        <contact URI="http://cps.ipums.org/" affiliation="IPUMS">IPUMS CPS</contact>
+        <citReq><![CDATA[Publications and research reports based on the IPUMS CPS database must cite it appropriately. The citation should include the following:
+
+Sarah Flood, Miriam King, Renae Rodgers, Steven Ruggles, J. Robert Warren, Daniel Backman, Etienne Breton, Grace Cooper, Julia A. Rivera Drew, Stephanie Richards, David Van Riper, and Kari C.W. Williams. IPUMS CPS: Version 13.0 [dataset]. Minneapolis, MN: IPUMS, 2025. https://doi.org/10.18128/D030.V13.0
+
+The licensing agreement for use of IPUMS CPS data requires that users supply us with the title and full citation for any publications, research reports, or educational materials making use of the data or documentation. Please add your citation to the IPUMS bibliography: http://bibliography.ipums.org/]]></citReq>
+        <conditions><![CDATA[Users of IPUMS CPS data must agree to abide by the conditions of use. A user's license is valid for one year and may be renewed.  Users must agree to the following conditions:
+
+(1) No fees may be charged for use or distribution of the data.  All persons are granted a limited license to use these data, but you may not charge a fee for the data if you distribute it to others.
+
+(2) Cite IPUMS appropriately.  For information on proper citation,  refer to the citation requirement section of this DDI document.
+
+(3) Tell us about any work you do using the IPUMS.  Publications, research  reports, or presentations making use of IPUMS CPS should be added to our  Bibliography. Continued funding for the IPUMS depends on our ability to  show our sponsor agencies that researchers are using the data for productive  purposes.
+
+(4) Use it for GOOD -- never for EVIL.]]></conditions>
+        <disclaimer>The user of the data acknowledges that the original collector of the data, the authorized distributor of the data, and the relevant funding agency bear no responsibility for use of the data or for interpretations or inferences based upon such uses.</disclaimer>
+      </useStmt>
+    </dataAccs>
+    <notes><![CDATA[User-provided description:  40 Years Full Time-Series Occupational Analysis (1983-2023)]]></notes>
+  </stdyDscr>
+  <fileDscr ID="ExtractData">
+    <fileTxt>
+      <fileName>cps_00001.dat</fileName>
+      <fileCont>Microdata records</fileCont>
+      <fileStrc type="rectangular"/>
+      <fileType charset="ISO-8859-1">ISO-8859-1 data file</fileType>
+      <format>fixed length fields</format>
+      <filePlac>IPUMS, 50 Willey Hall, 225 - 19th Avenue South, Minneapolis, MN 55455</filePlac>
+    </fileTxt>
+  </fileDscr>
+  <dataDscr><var ID="YEAR" dcml="0" files="ExtractData" intrvl="contin" name="YEAR">
+  <location EndPos="4" StartPos="1" width="4"/>
+  <labl>Survey year</labl>
+  <txt><![CDATA[YEAR reports the year in which the survey was conducted.  YEARP is repeated on person records.]]></txt>
+  <codInstr><![CDATA[CodesYEAR is a 4-digit numeric value.]]></codInstr>
+  <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="SERIAL" dcml="0" files="ExtractData" intrvl="contin" name="SERIAL">
+  <location EndPos="9" StartPos="5" width="5"/>
+  <labl>Household serial number</labl>
+  <txt><![CDATA[SERIAL is an identifying number unique to each household in a given survey month and year.  All person records are assigned the same serial number as the household record they follow.  A combination of YEAR, MONTH, and SERIAL provides a within-sample unique identifier for every household in IPUMS-CPS; YEAR, MONTH, SERIAL, and PERNUM uniquely identify every person within a single sample.
+
+SERIAL is a new value generated for IPUMS-CPS and should not be confused with the household serial number created by the Census Bureau and included in the original CPS data.]]></txt>
+  <codInstr><![CDATA[CodesSERIAL is a 5-digit numeric variable.]]></codInstr>
+  <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="MONTH" dcml="0" files="ExtractData" intrvl="discrete" name="MONTH">
+  <location EndPos="11" StartPos="10" width="2"/>
+  <labl>Month</labl>
+  <txt><![CDATA[MONTH indicates the calendar month of the CPS interview.]]></txt>
+  <catgry>
+    <catValu>01</catValu>
+    <labl>January</labl>
+  </catgry>
+  <catgry>
+    <catValu>02</catValu>
+    <labl>February</labl>
+  </catgry>
+  <catgry>
+    <catValu>03</catValu>
+    <labl>March</labl>
+  </catgry>
+  <catgry>
+    <catValu>04</catValu>
+    <labl>April</labl>
+  </catgry>
+  <catgry>
+    <catValu>05</catValu>
+    <labl>May</labl>
+  </catgry>
+  <catgry>
+    <catValu>06</catValu>
+    <labl>June</labl>
+  </catgry>
+  <catgry>
+    <catValu>07</catValu>
+    <labl>July</labl>
+  </catgry>
+  <catgry>
+    <catValu>08</catValu>
+    <labl>August</labl>
+  </catgry>
+  <catgry>
+    <catValu>09</catValu>
+    <labl>September</labl>
+  </catgry>
+  <catgry>
+    <catValu>10</catValu>
+    <labl>October</labl>
+  </catgry>
+  <catgry>
+    <catValu>11</catValu>
+    <labl>November</labl>
+  </catgry>
+  <catgry>
+    <catValu>12</catValu>
+    <labl>December</labl>
+  </catgry>
+  <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="CPSID" dcml="0" files="ExtractData" intrvl="contin" name="CPSID">
+  <location EndPos="25" StartPos="12" width="14"/>
+  <labl>CPSID, household record</labl>
+  <txt><![CDATA[CPSID is an IPUMS-CPS defined variable that uniquely identifies households across CPS samples. The first six digits of CPSID index the four-digit year and two-digit month that the household was first in the CPS. CPSID allows users to link a household record across samples, based on the 4-8-4 rotation pattern, by assigning a unique CPSID value based on a combination of household identifiers. CPSID will only ever appear for a maximum of 8 times, which is the number of times a household may be observed in the CPS survey (as indexed by MISH). In some cases, a household will appear fewer than 8 times due to migration, mortality, non-response, and recording errors. CPSID Extensive documentation about the creation of CPSID is available elsewhere.
+
+CPSID may also be used to link ASEC households that appear in the March Basic Monthly file to other months of CPS data. This linking is made possible by IPUMS through the creation of MARBASECIDH. For further information about the relationship between the March Basic and the ASEC, please see our additional documentation.
+
+Households that are part of the ASEC oversample (as indicated by ASECOVERH) may also be linked across ASEC samples, but not to the March or any other Basic Monthly sample. Note that MISH is not a reliable indicator of rotation pattern status for ASEC oversample records and should not be used to validate matches. For further information on linking records across ASEC samples, please see our additional documentation.
+
+Users may also want to see CPSIDP and CPSIDV for more information about linking individuals across time using a person-specific version of CPSID.]]></txt>
+  <codInstr><![CDATA[CodesCPSID is a 14-digit numeric variable.]]></codInstr>
+  <concept vocab="IPUMS">Linking Variables -- HOUSEHOLD</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="ASECFLAG" dcml="0" files="ExtractData" intrvl="discrete" name="ASECFLAG">
+  <location EndPos="26" StartPos="26" width="1"/>
+  <labl>Flag for ASEC</labl>
+  <txt><![CDATA[ASECFLAG indicates whether the respondent is part of the ASEC or the March Basic. This variable is useful for users who wish to distinguish ASEC and March Basic files in their extracts. See further information about the ASEC versus the March Basic Monthly Files.]]></txt>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>ASEC</labl>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>March Basic</labl>
+  </catgry>
+  <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="HFLAG" dcml="0" files="ExtractData" intrvl="discrete" name="HFLAG">
+  <location EndPos="27" StartPos="27" width="1"/>
+  <labl>Flag for the 3/8 file 2014</labl>
+  <txt><![CDATA[HFLAG indicates whether the respondent is part of the 3/8 redesign in the 2014 ASEC sample. This variable is useful for users who wish to analyze income and SPM variables in the 2014 ASEC sample. See further information about the 2014 survey redesign.]]></txt>
+  <catgry>
+    <catValu>0</catValu>
+    <labl>5/8 file</labl>
+  </catgry>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>3/8 file</labl>
+  </catgry>
+  <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="ASECWTH" dcml="4" files="ExtractData" intrvl="contin" name="ASECWTH">
+  <location EndPos="38" StartPos="28" width="11"/>
+  <labl>Annual Social and Economic Supplement Household weight</labl>
+  <txt><![CDATA[ASECWTH is a household-level weight that should be used to generate statistics about households in March Annual Social and Economic (ASEC) Supplement data. The CPS uses a complex stratified sampling scheme, and ASECWTH must be used to produce unbiased household-level statistics from the IPUMS-CPS ASEC data. For analyses of non-ASEC data, researchers should use HWTFINL. For individual-level analyses, researchers should use WTFINL, ASECWT, or EARNWT. 
+
+ASECWTH generally has the same value as WTSUPP for the household head or reference person. Vacant housing units and households that could not be interviewed due to residents' absence or refusal to participate have a value of zero in HWTSUPP; such sampled units were included in the public use CPS data beginning in 1988. 
+
+Estimates on the entire population are prepared by projecting forward the resident population from the last available census. These projections are derived by updating the demographic census data from a number of other data sources that account for death, births and net migration. About 3 years after every census (i.e. 2003 for the 2000 Census and 2013 for the 2010 Census), the Census Bureau updates its independent population control and provides a new weight for the relevant years.
+
+Two important points should be noted here. First, the lag between when the Census is conducted and when the CPS weights are updated is about 3 years. While the Census data are being processed, the CPS files are made available using the weighting scheme from the US Census prior to the latest Census. Second, once the files are updated, the old weights become obsolete and are replaced in the IPUMS data extract system. Published estimates from the lag years that use the old weights are not always updated. For example, 2010 poverty estimates were released in ASEC using the 2000 population controls. Once the 2010 population controls were made available, IPUMS-CPS replaced the ASEC 2010, 2011, and 2012 weights that are based on the 2000 population control with weights that are based on the 2010 population controls.
+
+IPUMS-CPS makes available only the most up-to-date weights. The old values are available here: Old SPM and Weights Values.]]></txt>
+  <codInstr><![CDATA[CodesASECWTH is a 10-digit numeric variable with four implied decimals.  That is, 1234567890 should be interpreted as 123456.7890.  The IPUMS command files automatically divide ASECWTH by 10,000, so no further adjustment is needed.]]></codInstr>
+  <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="PERNUM" dcml="0" files="ExtractData" intrvl="contin" name="PERNUM">
+  <location EndPos="40" StartPos="39" width="2"/>
+  <labl>Person number in sample unit</labl>
+  <txt><![CDATA[PERNUM numbers all persons within each household consecutively (starting with "1") in the order in which they are listed in the original CPS data.  When combined with YEAR , MONTH, and SERIAL, PERNUM uniquely identifies each person within IPUMS-CPS samples, though not across IPUMS-CPS samples.]]></txt>
+  <codInstr><![CDATA[CodesPERNUM is a 2-digit numeric variable.]]></codInstr>
+  <concept vocab="IPUMS">Technical Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="CPSIDP" dcml="0" files="ExtractData" intrvl="contin" name="CPSIDP">
+  <location EndPos="54" StartPos="41" width="14"/>
+  <labl>CPSID, person record</labl>
+  <txt><![CDATA[CPSIDP is an IPUMS CPS defined variable that uniquely identifies individuals across CPS samples. The first six digits of CPSIDP index the four-digit year and two-digit month that the household was first in the CPS. CPSIDP allows users to link a respondent appearing with a designated household roster line number (LINENO) across samples, based on the 4-8-4 rotation pattern, by assigning a unique CPSIDP value to this line number. CPSIDP will only ever appear for a maximum of 8 times, which is the number of times a household may be observed in the CPS survey (as indexed by MISH). In some cases, individuals will appear fewer than 8 times due to migration, mortality, non-response, and recording errors. Extensive documentation about the creation of CPSIDP is available elsewhere.
+
+To get started using CPSIDP, users may want to sort their data file by CPSIDP and MISH to create a person-time file.
+
+Users should note that it is important to verify CPSIDP linkages with AGE, SEX, and RACE. In some cases CPSIDP will result in erroneous links, which are due to errors in the source data. Cases with the same CPSIDP value may also have inconsistent responses across samples due to errors on the part of the respondent or in recording the response. Ultimately, it is up to the individual researcher to determine the acceptability of the linkages made using CPSIDP. IPUMS CPS also offers CPSIDV which creates linkages across months that have been validated based on demographic characteristics.
+
+CPSIDP may also be used to link ASEC respondents who are in the March Basic Monthly file to other months of CPS data. This linking is made possible by IPUMS through the creation of MARBASECIDP. For further information about the relationship between the March Basic and the ASEC, please see our additional documentation.
+
+Respondents who are part of the ASEC oversample (as indicated by ASECOVERP) may also be linked across ASEC samples, but not to the March or any other Basic Monthly sample. Note also that MISH is not a reliable indicator of rotation pattern status for ASEC oversample records and should not be used to validate matches. For further information on linking records across ASEC samples, please see our additional documentation.]]></txt>
+  <codInstr><![CDATA[CodesCPSIDP is a 14-digit numeric variable.]]></codInstr>
+  <concept vocab="IPUMS">Linking Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="CPSIDV" dcml="0" files="ExtractData" intrvl="contin" name="CPSIDV">
+  <location EndPos="69" StartPos="55" width="15"/>
+  <labl>Validated Longitudinal Identifier</labl>
+  <txt><![CDATA[CPSIDV is an IPUMS CPS-created variable that uniquely identifies individuals across CPS samples. In addition to linking records across the CPS 4-8-4 rotation pattern, CPSIDV only makes links between those records whose SEX and RACE values do not change and whose AGE values change in expected ways over time. 
+
+CPSIDV is based on CPSIDP and so there are some structural similarities between them. The first six digits of CPSIDV are identical to CPSIDP - the four-digit year and two-digit month that the household was first in the CPS. Like CPSIDP, CPSIDV allows users to link a respondent appearing with a designated household roster line number (LINENO) across samples, based on the 4-8-4 rotation pattern. 
+
+Only records that link using CPSIDP that also have consistent race and sex values and age values that increase at least one but not more than two years over the course of the 16-month CPS rotation are linkable using CPSIDV. As a result, linkage rates using CPSIDV are slightly lower than those achieved using CPSIDP. However, linkages created with CPSIDV do not require the recommended post-linking verification steps recommended for use with CPSIDP links. Users should note that original, unharmonized values of age, sex, and race are used in the creation of CPSIDV. The procedure and validation criteria for creating CPSIDV are described in detail in A Holistic Approach to Validating Current Population Survey Panel Data. 
+
+To get started using CPSIDV, users may want to sort their data file by CPSIDV and MISH to create a person-time file. 
+
+CPSIDV may also be used to link ASEC respondents across years. This linking is made possible, in part, by IPUMS through the creation of MARBASECIDP. For further information about the relationship between the March Basic and the ASEC, please see our additional documentation. In addition, persons in the ASEC oversample (as indicated by ASECOVERP) can be linked across ASEC samples using CPSIDV. Note however, that ASEC oversample individuals cannot be linked to the March Basic or any other Basic Monthly survey using CPSIDV. Note also that MISH is not a reliable indicator of rotation pattern status for ASEC oversample records and should not be used to validate matches. For further information on linking ASEC oversamples using CPSIDV, please refer to our additional documentation.
+
+Users should take care when including the March Basic or ASEC as part of their linking. Respondents who are part of the ASEC oversample (as indicated by ASECOVERP) have a CPSIDV value of 0.]]></txt>
+  <codInstr><![CDATA[CodesCPSIDV is a 15-digit numeric variable.]]></codInstr>
+  <concept vocab="IPUMS">Linking Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="ASECWT" dcml="4" files="ExtractData" intrvl="contin" name="ASECWT">
+  <location EndPos="80" StartPos="70" width="11"/>
+  <labl>Annual Social and Economic Supplement Weight</labl>
+  <txt><![CDATA[ASECWT is a person-level weight that should be used in analyses of individual-level CPS supplement data. Since the CPS relies on a complex stratified sampling scheme, it is essential to use one of the provided weighting variables.
+
+Researchers should use WTFINL rather than ASECWT when they wish to conduct person-level analyses of non-ASEC data. EARNWT should be used for any analysis including a small number of person-level variables (EARNWEEK, HOURWAGE, PAIDHOUR, and UNION). Researchers should use ASECWTH for household-level analyses. ASECWTCVD is available for the 2020 ASEC to adjust for nonrandom nonresponse resulting from the COVID-19 pandemic.
+
+User Caution: For analyses that include the 2014 ASEC sample, please see the comparability tab.
+
+The ASEC CPS files include two groups of people who are not included in the production of published labor force statistics: (1) members of the armed services, and (2) members of the Hispanic oversample who were interviewed in months other than March. WTFINL and EARNWT assign these groups a value of 0. Both groups are assigned non-zero values in ASECWT.
+
+ASECWT is based on the inverse probability of selection into the sample and adjustments for the following factors: failure to obtain an interview; sampling within large sample units; the known distribution of the entire population according to age, sex, and race; over-sampling Hispanic persons; to give husbands and wives the same weight; and an additional step to provide consistency with labor force estimates from the basic survey. 
+
+Estimates on the entire population are prepared by projecting forward the resident population from the last available census. These projections are derived by updating the demographic census data from a number of other data sources that account for death, births and net migration. About 3 years after every census (i.e. 2003 for the 2000 Census and 2013 for the 2010 Census), the Census Bureau updates its independent population control and provides a new weight for the relevant years.
+
+Two important points should be noted here. First, the lag between when the Census is conducted and when the CPS weights are updated is about 3 years. While the Census data are being processed, the CPS files are made available using the weighting scheme from the US Census prior to the latest Census. Second, once the files are updated, the old weights become obsolete and are replaced in the IPUMS data extract system. Published estimates from the lag years that use the old weights are not always updated. For example, 2010 poverty estimates were released in ASEC using the 2000 population controls. Once the 2010 population controls were made available, IPUMS-CPS replaced the ASEC 2010, 2011, and 2012 weights that are based on the 2000 population control with weights that are based on the 2010 population controls. IPUMS-CPS makes available only the most up-to-date weights.]]></txt>
+  <codInstr><![CDATA[CodesASECWT is a 10-digit numeric variable with four implied decimal places. That is, values of 0012345600 should be interpreted as 1,234.56.  The IPUMS command files automatically divide ASECWT by 10,000, so no further adjustment is needed.]]></codInstr>
+  <concept vocab="IPUMS">Technical Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="AGE" dcml="0" files="ExtractData" intrvl="discrete" name="AGE">
+  <location EndPos="82" StartPos="81" width="2"/>
+  <labl>Age</labl>
+  <txt><![CDATA[Age gives each person's age at last birthday.]]></txt>
+  <catgry>
+    <catValu>00</catValu>
+    <labl>Under 1 year</labl>
+  </catgry>
+  <catgry>
+    <catValu>01</catValu>
+    <labl>1</labl>
+  </catgry>
+  <catgry>
+    <catValu>02</catValu>
+    <labl>2</labl>
+  </catgry>
+  <catgry>
+    <catValu>03</catValu>
+    <labl>3</labl>
+  </catgry>
+  <catgry>
+    <catValu>04</catValu>
+    <labl>4</labl>
+  </catgry>
+  <catgry>
+    <catValu>05</catValu>
+    <labl>5</labl>
+  </catgry>
+  <catgry>
+    <catValu>06</catValu>
+    <labl>6</labl>
+  </catgry>
+  <catgry>
+    <catValu>07</catValu>
+    <labl>7</labl>
+  </catgry>
+  <catgry>
+    <catValu>08</catValu>
+    <labl>8</labl>
+  </catgry>
+  <catgry>
+    <catValu>09</catValu>
+    <labl>9</labl>
+  </catgry>
+  <catgry>
+    <catValu>10</catValu>
+    <labl>10</labl>
+  </catgry>
+  <catgry>
+    <catValu>11</catValu>
+    <labl>11</labl>
+  </catgry>
+  <catgry>
+    <catValu>12</catValu>
+    <labl>12</labl>
+  </catgry>
+  <catgry>
+    <catValu>13</catValu>
+    <labl>13</labl>
+  </catgry>
+  <catgry>
+    <catValu>14</catValu>
+    <labl>14</labl>
+  </catgry>
+  <catgry>
+    <catValu>15</catValu>
+    <labl>15</labl>
+  </catgry>
+  <catgry>
+    <catValu>16</catValu>
+    <labl>16</labl>
+  </catgry>
+  <catgry>
+    <catValu>17</catValu>
+    <labl>17</labl>
+  </catgry>
+  <catgry>
+    <catValu>18</catValu>
+    <labl>18</labl>
+  </catgry>
+  <catgry>
+    <catValu>19</catValu>
+    <labl>19</labl>
+  </catgry>
+  <catgry>
+    <catValu>20</catValu>
+    <labl>20</labl>
+  </catgry>
+  <catgry>
+    <catValu>21</catValu>
+    <labl>21</labl>
+  </catgry>
+  <catgry>
+    <catValu>22</catValu>
+    <labl>22</labl>
+  </catgry>
+  <catgry>
+    <catValu>23</catValu>
+    <labl>23</labl>
+  </catgry>
+  <catgry>
+    <catValu>24</catValu>
+    <labl>24</labl>
+  </catgry>
+  <catgry>
+    <catValu>25</catValu>
+    <labl>25</labl>
+  </catgry>
+  <catgry>
+    <catValu>26</catValu>
+    <labl>26</labl>
+  </catgry>
+  <catgry>
+    <catValu>27</catValu>
+    <labl>27</labl>
+  </catgry>
+  <catgry>
+    <catValu>28</catValu>
+    <labl>28</labl>
+  </catgry>
+  <catgry>
+    <catValu>29</catValu>
+    <labl>29</labl>
+  </catgry>
+  <catgry>
+    <catValu>30</catValu>
+    <labl>30</labl>
+  </catgry>
+  <catgry>
+    <catValu>31</catValu>
+    <labl>31</labl>
+  </catgry>
+  <catgry>
+    <catValu>32</catValu>
+    <labl>32</labl>
+  </catgry>
+  <catgry>
+    <catValu>33</catValu>
+    <labl>33</labl>
+  </catgry>
+  <catgry>
+    <catValu>34</catValu>
+    <labl>34</labl>
+  </catgry>
+  <catgry>
+    <catValu>35</catValu>
+    <labl>35</labl>
+  </catgry>
+  <catgry>
+    <catValu>36</catValu>
+    <labl>36</labl>
+  </catgry>
+  <catgry>
+    <catValu>37</catValu>
+    <labl>37</labl>
+  </catgry>
+  <catgry>
+    <catValu>38</catValu>
+    <labl>38</labl>
+  </catgry>
+  <catgry>
+    <catValu>39</catValu>
+    <labl>39</labl>
+  </catgry>
+  <catgry>
+    <catValu>40</catValu>
+    <labl>40</labl>
+  </catgry>
+  <catgry>
+    <catValu>41</catValu>
+    <labl>41</labl>
+  </catgry>
+  <catgry>
+    <catValu>42</catValu>
+    <labl>42</labl>
+  </catgry>
+  <catgry>
+    <catValu>43</catValu>
+    <labl>43</labl>
+  </catgry>
+  <catgry>
+    <catValu>44</catValu>
+    <labl>44</labl>
+  </catgry>
+  <catgry>
+    <catValu>45</catValu>
+    <labl>45</labl>
+  </catgry>
+  <catgry>
+    <catValu>46</catValu>
+    <labl>46</labl>
+  </catgry>
+  <catgry>
+    <catValu>47</catValu>
+    <labl>47</labl>
+  </catgry>
+  <catgry>
+    <catValu>48</catValu>
+    <labl>48</labl>
+  </catgry>
+  <catgry>
+    <catValu>49</catValu>
+    <labl>49</labl>
+  </catgry>
+  <catgry>
+    <catValu>50</catValu>
+    <labl>50</labl>
+  </catgry>
+  <catgry>
+    <catValu>51</catValu>
+    <labl>51</labl>
+  </catgry>
+  <catgry>
+    <catValu>52</catValu>
+    <labl>52</labl>
+  </catgry>
+  <catgry>
+    <catValu>53</catValu>
+    <labl>53</labl>
+  </catgry>
+  <catgry>
+    <catValu>54</catValu>
+    <labl>54</labl>
+  </catgry>
+  <catgry>
+    <catValu>55</catValu>
+    <labl>55</labl>
+  </catgry>
+  <catgry>
+    <catValu>56</catValu>
+    <labl>56</labl>
+  </catgry>
+  <catgry>
+    <catValu>57</catValu>
+    <labl>57</labl>
+  </catgry>
+  <catgry>
+    <catValu>58</catValu>
+    <labl>58</labl>
+  </catgry>
+  <catgry>
+    <catValu>59</catValu>
+    <labl>59</labl>
+  </catgry>
+  <catgry>
+    <catValu>60</catValu>
+    <labl>60</labl>
+  </catgry>
+  <catgry>
+    <catValu>61</catValu>
+    <labl>61</labl>
+  </catgry>
+  <catgry>
+    <catValu>62</catValu>
+    <labl>62</labl>
+  </catgry>
+  <catgry>
+    <catValu>63</catValu>
+    <labl>63</labl>
+  </catgry>
+  <catgry>
+    <catValu>64</catValu>
+    <labl>64</labl>
+  </catgry>
+  <catgry>
+    <catValu>65</catValu>
+    <labl>65</labl>
+  </catgry>
+  <catgry>
+    <catValu>66</catValu>
+    <labl>66</labl>
+  </catgry>
+  <catgry>
+    <catValu>67</catValu>
+    <labl>67</labl>
+  </catgry>
+  <catgry>
+    <catValu>68</catValu>
+    <labl>68</labl>
+  </catgry>
+  <catgry>
+    <catValu>69</catValu>
+    <labl>69</labl>
+  </catgry>
+  <catgry>
+    <catValu>70</catValu>
+    <labl>70</labl>
+  </catgry>
+  <catgry>
+    <catValu>71</catValu>
+    <labl>71</labl>
+  </catgry>
+  <catgry>
+    <catValu>72</catValu>
+    <labl>72</labl>
+  </catgry>
+  <catgry>
+    <catValu>73</catValu>
+    <labl>73</labl>
+  </catgry>
+  <catgry>
+    <catValu>74</catValu>
+    <labl>74</labl>
+  </catgry>
+  <catgry>
+    <catValu>75</catValu>
+    <labl>75</labl>
+  </catgry>
+  <catgry>
+    <catValu>76</catValu>
+    <labl>76</labl>
+  </catgry>
+  <catgry>
+    <catValu>77</catValu>
+    <labl>77</labl>
+  </catgry>
+  <catgry>
+    <catValu>78</catValu>
+    <labl>78</labl>
+  </catgry>
+  <catgry>
+    <catValu>79</catValu>
+    <labl>79</labl>
+  </catgry>
+  <catgry>
+    <catValu>80</catValu>
+    <labl>80</labl>
+  </catgry>
+  <catgry>
+    <catValu>81</catValu>
+    <labl>81</labl>
+  </catgry>
+  <catgry>
+    <catValu>82</catValu>
+    <labl>82</labl>
+  </catgry>
+  <catgry>
+    <catValu>83</catValu>
+    <labl>83</labl>
+  </catgry>
+  <catgry>
+    <catValu>84</catValu>
+    <labl>84</labl>
+  </catgry>
+  <catgry>
+    <catValu>85</catValu>
+    <labl>85</labl>
+  </catgry>
+  <catgry>
+    <catValu>86</catValu>
+    <labl>86</labl>
+  </catgry>
+  <catgry>
+    <catValu>87</catValu>
+    <labl>87</labl>
+  </catgry>
+  <catgry>
+    <catValu>88</catValu>
+    <labl>88</labl>
+  </catgry>
+  <catgry>
+    <catValu>89</catValu>
+    <labl>89</labl>
+  </catgry>
+  <catgry>
+    <catValu>90</catValu>
+    <labl>90 (90+, 1988-2002)</labl>
+  </catgry>
+  <catgry>
+    <catValu>91</catValu>
+    <labl>91</labl>
+  </catgry>
+  <catgry>
+    <catValu>92</catValu>
+    <labl>92</labl>
+  </catgry>
+  <catgry>
+    <catValu>93</catValu>
+    <labl>93</labl>
+  </catgry>
+  <catgry>
+    <catValu>94</catValu>
+    <labl>94</labl>
+  </catgry>
+  <catgry>
+    <catValu>95</catValu>
+    <labl>95</labl>
+  </catgry>
+  <catgry>
+    <catValu>96</catValu>
+    <labl>96</labl>
+  </catgry>
+  <catgry>
+    <catValu>97</catValu>
+    <labl>97</labl>
+  </catgry>
+  <catgry>
+    <catValu>98</catValu>
+    <labl>98</labl>
+  </catgry>
+  <catgry>
+    <catValu>99</catValu>
+    <labl>99+</labl>
+  </catgry>
+  <concept vocab="IPUMS">Demographics Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="EMPSTAT" dcml="0" files="ExtractData" intrvl="discrete" name="EMPSTAT">
+  <location EndPos="84" StartPos="83" width="2"/>
+  <labl>Employment status</labl>
+  <txt><![CDATA[EMPSTAT indicates whether persons were part of the labor force--working or seeking work--and, if so, whether they were currently unemployed. The variable also provides information on the activity (e.g., doing housework, attending school,) or status (e.g., retired, unable to work) of persons not in the labor force, as well as limited additional information on those who are in the labor force (e.g. members of the Armed Forces, those with a job, but not at work last week). See LABFORCE for a dichotomous variable identifying whether a person participated in the labor force.
+
+In the CPS, individuals' employment status was determined on the basis of answers to a series of questions relating to their activities during the preceding week.  Those who reported doing any work at all for pay or profit, or working at least fifteen hours without pay in a family business or farm, were classified as "at work."  Those who did not work during the previous week but who acknowledged having a job or business from which they were temporarily absent (e.g., due to illness, vacation, bad weather, or labor dispute) were also classified as employed, under the heading "has job, not at work last week."
+
+Because the CPS is designed to measure unemployment in the civilian population, the original employment status variable in the survey classifies members of the armed forces as NIU (Not in universe).
+
+Unemployed persons make up the third element of the labor force.  Individuals were coded as unemployed if they did no work for pay or profit, did not have a job from which they were briefly absent, and either reported looking for work as their major activity during the previous week (for 1962 through 1993) or answered yes to a question about whether they had been looking for work in the past four weeks. People who were temporarily laid off from a job were also classified as unemployed. A separate CPS variable specifying whether an unemployed person had worked before or was looking for a first job was used to distinguish between "experienced" and "inexperienced" unemployed persons in IPUMS CPS.
+
+Persons who were neither employed nor unemployed fall into the residual category, "not in labor force."  Such individuals might be retired, disabled due to an illness lasting at least 6 months, occupied with other activities such as attending school or keeping house, or convinced that they are unlikely to find employment (discouraged workers).]]></txt>
+  <catgry>
+    <catValu>00</catValu>
+    <labl>NIU</labl>
+  </catgry>
+  <catgry>
+    <catValu>01</catValu>
+    <labl>Armed Forces</labl>
+  </catgry>
+  <catgry>
+    <catValu>10</catValu>
+    <labl>At work</labl>
+  </catgry>
+  <catgry>
+    <catValu>12</catValu>
+    <labl>Has job, not at work last week</labl>
+  </catgry>
+  <catgry>
+    <catValu>20</catValu>
+    <labl>Unemployed</labl>
+  </catgry>
+  <catgry>
+    <catValu>21</catValu>
+    <labl>Unemployed, experienced worker</labl>
+  </catgry>
+  <catgry>
+    <catValu>22</catValu>
+    <labl>Unemployed, new worker</labl>
+  </catgry>
+  <catgry>
+    <catValu>30</catValu>
+    <labl>Not in labor force</labl>
+  </catgry>
+  <catgry>
+    <catValu>31</catValu>
+    <labl>NILF, housework</labl>
+  </catgry>
+  <catgry>
+    <catValu>32</catValu>
+    <labl>NILF, unable to work</labl>
+  </catgry>
+  <catgry>
+    <catValu>33</catValu>
+    <labl>NILF, school</labl>
+  </catgry>
+  <catgry>
+    <catValu>34</catValu>
+    <labl>NILF, other</labl>
+  </catgry>
+  <catgry>
+    <catValu>35</catValu>
+    <labl>NILF, unpaid, lt 15 hours</labl>
+  </catgry>
+  <catgry>
+    <catValu>36</catValu>
+    <labl>NILF, retired</labl>
+  </catgry>
+  <concept vocab="IPUMS">Work Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="OCC1990" dcml="0" files="ExtractData" intrvl="discrete" name="OCC1990">
+  <location EndPos="87" StartPos="85" width="3"/>
+  <labl>Occupation, 1990 basis</labl>
+  <txt><![CDATA[OCC1990 is a modified version of the 1990 Census Bureau occupational classification scheme.  Like OCC1950, OCC1990 offers researchers a consistent long-term classification of occupations.    
+
+The occupational coding scheme in CPS data has changed several times since the 1960s.  The CPS's occupational coding scheme has mirrored that of the Census Bureau, though the CPS has always introduced major coding changes one-to-three years later than the Census Bureau. All original occupational information is stored in the OCC variable.  The meaning of codes in the OCC variable changes with each new coding scheme.  
+
+We chose the 1990 scheme as the standard for OCC1990 so that no year's occupational data would be forced to bridge both of the two most significant changes in census-based coding schemes: from 1970 to 1980 and from 1990 to 2000.  In OCC1990, all samples from 1968 onwards bridge no more than one of these major shifts.  For this reason, the variable may be preferable to OCC1950 for the samples from 1980 onward.  Sensitivity testing suggests that OCC1990 performs very similarly to OCC1950 for most purposes.
+
+The original 1990 occupational scheme has 514 categories.  OCC1990 combines a number of occupational categories to maximize the variable's consistency over time.  The resulting OCC1990 classification scheme contains 389 categories (see the "Codes and Frequencies" link above).  Many users will want to further aggregate categories into the broad occupational categories implicit in the 1990 scheme:  Managerial and Professional (000-200); Technical, Sales, and Administrative (201-400); Service (401-470); Farming, Forestry, and Fishing (471-500); Precision Production, Craft, and Repairers (501-700); Operatives and Laborers (701-900); Non-occupational responses (900-999).
+
+OCC1990 was created using a series of technical papers published by the Census Bureau shortly after each census was administered.  These papers provide detailed analyses of how the occupational coding scheme for each census year differed from the scheme used during the previous census year.  These occupational "crosswalks" are based on samples of cases that are "double coded" into the occupational schemes of the current and previous census year.  The original Census Bureau crosswalks are available via links in "Occupation and Industry Variables" of the IPUMS-USA documentation. 
+
+Using the information from the occupational crosswalks, we traced the proportion of each occupation as it broke out into more specific occupations or as it was combined with others into a more general occupation.  To take one example from the technical paper produced after the 2000 census: of persons coded as "Gaming managers" in 2000 (2000 code 33), the Census Bureau determined that 35% would have been coded as "Managers, service organizations" in 1990 (1990 code 21), while 65% would have been coded as "Managers, food serving and lodging establishments" (1990 code 17).  Thus, OCC1990 assigns a code of 17 to the cases in the 2000 IPUMS sample having an original 2000 OCC value of 33.  We generated the same information for every occupational code in every census year from 1960-2000. Read our detailed documentation on the 2010 Census occupation coding scheme to learn about how we bridge differences introduced in the occupation classifications for this census year.
+
+Researchers at the Bureau of Labor Statistics (BLS) then used the resulting tables to create aggregated occupational categories that were more useful for long-term analyses.  We have performed a variety of tests to ensure that the new categories are as robust as possible over the long-term.  More specifics on their methods and a detailed comparison of OCC1950 and OCC1990 can be found in the BLS Working Paper on the topic.
+
+The IPUMS codes differ from those outlined in the BLS working paper in two instances.
+&nbsp;In the BLS working paper, persons with the occupation of "Parking Enforcement Workers" (2000 code 384) were coded as "Housekeepers, maids, butlers, stewards, and lodging quarters cleaners" (1990 code 405). IPUMS assigns a code of 423 to these cases in OCC1990, which corresponds to "Other law enforcement: sheriffs, bailiffs, correctional institution officers".  The double-coded crosswalks from the Census Bureau show that 100% of persons coded as "Parking Enforcement Workers" in 2000 would have been coded as "Other law enforcement: sheriffs, bailiffs, correctional institution officers" under the 1990 coding scheme.
+
+The second difference is for code 874 in the 1990 census occupation, which is labeled as "Helper-production worker". The BLS working paper assigns these cases to "Laborers outside construction" (1990 code 889), but separately includes the occupation "Helper-production worker" with a code of 873; note that code 873 for occupation does not exist in the 1990 PUMS. IPUMS retains the original value of 874 with the label of "Helper-production workers" in OCC1990 and does not include an occupation code of 873.]]></txt>
+  <catgry>
+    <catValu>003</catValu>
+    <labl>Legislators</labl>
+  </catgry>
+  <catgry>
+    <catValu>004</catValu>
+    <labl>Chief executives and public administrators</labl>
+  </catgry>
+  <catgry>
+    <catValu>007</catValu>
+    <labl>Financial managers</labl>
+  </catgry>
+  <catgry>
+    <catValu>008</catValu>
+    <labl>Human resources and labor relations managers</labl>
+  </catgry>
+  <catgry>
+    <catValu>013</catValu>
+    <labl>Managers and specialists in marketing, advertising, and public relations</labl>
+  </catgry>
+  <catgry>
+    <catValu>014</catValu>
+    <labl>Managers in education and related fields</labl>
+  </catgry>
+  <catgry>
+    <catValu>015</catValu>
+    <labl>Managers of medicine and health occupations</labl>
+  </catgry>
+  <catgry>
+    <catValu>016</catValu>
+    <labl>Postmasters and mail superintendents</labl>
+  </catgry>
+  <catgry>
+    <catValu>017</catValu>
+    <labl>Managers of food-serving and lodging establishments</labl>
+  </catgry>
+  <catgry>
+    <catValu>018</catValu>
+    <labl>Managers of properties and real estate</labl>
+  </catgry>
+  <catgry>
+    <catValu>019</catValu>
+    <labl>Funeral directors</labl>
+  </catgry>
+  <catgry>
+    <catValu>021</catValu>
+    <labl>Managers of service organizations, n.e.c.</labl>
+  </catgry>
+  <catgry>
+    <catValu>022</catValu>
+    <labl>Managers and administrators, n.e.c.</labl>
+  </catgry>
+  <catgry>
+    <catValu>023</catValu>
+    <labl>Accountants and auditors</labl>
+  </catgry>
+  <catgry>
+    <catValu>024</catValu>
+    <labl>Insurance underwriters</labl>
+  </catgry>
+  <catgry>
+    <catValu>025</catValu>
+    <labl>Other financial specialists</labl>
+  </catgry>
+  <catgry>
+    <catValu>026</catValu>
+    <labl>Management analysts</labl>
+  </catgry>
+  <catgry>
+    <catValu>027</catValu>
+    <labl>Personnel, HR, training, and labor relations specialists</labl>
+  </catgry>
+  <catgry>
+    <catValu>028</catValu>
+    <labl>Purchasing agents and buyers, of farm products</labl>
+  </catgry>
+  <catgry>
+    <catValu>029</catValu>
+    <labl>Buyers, wholesale and retail trade</labl>
+  </catgry>
+  <catgry>
+    <catValu>033</catValu>
+    <labl>Purchasing managers, agents and buyers, n.e.c.</labl>
+  </catgry>
+  <catgry>
+    <catValu>034</catValu>
+    <labl>Business and promotion agents</labl>
+  </catgry>
+  <catgry>
+    <catValu>035</catValu>
+    <labl>Construction inspectors</labl>
+  </catgry>
+  <catgry>
+    <catValu>036</catValu>
+    <labl>Inspectors and compliance officers, outside construction</labl>
+  </catgry>
+  <catgry>
+    <catValu>037</catValu>
+    <labl>Management support occupations</labl>
+  </catgry>
+  <catgry>
+    <catValu>043</catValu>
+    <labl>Architects</labl>
+  </catgry>
+  <catgry>
+    <catValu>044</catValu>
+    <labl>Aerospace engineer</labl>
+  </catgry>
+  <catgry>
+    <catValu>045</catValu>
+    <labl>Metallurgical and materials engineers, variously phrased</labl>
+  </catgry>
+  <catgry>
+    <catValu>047</catValu>
+    <labl>Petroleum, mining, and geological engineers</labl>
+  </catgry>
+  <catgry>
+    <catValu>048</catValu>
+    <labl>Chemical engineers</labl>
+  </catgry>
+  <catgry>
+    <catValu>053</catValu>
+    <labl>Civil engineers</labl>
+  </catgry>
+  <catgry>
+    <catValu>055</catValu>
+    <labl>Electrical engineer</labl>
+  </catgry>
+  <catgry>
+    <catValu>056</catValu>
+    <labl>Industrial engineers</labl>
+  </catgry>
+  <catgry>
+    <catValu>057</catValu>
+    <labl>Mechanical engineers</labl>
+  </catgry>
+  <catgry>
+    <catValu>059</catValu>
+    <labl>Not-elsewhere-classified engineers</labl>
+  </catgry>
+  <catgry>
+    <catValu>064</catValu>
+    <labl>Computer systems analysts and computer scientists</labl>
+  </catgry>
+  <catgry>
+    <catValu>065</catValu>
+    <labl>Operations and systems researchers and analysts</labl>
+  </catgry>
+  <catgry>
+    <catValu>066</catValu>
+    <labl>Actuaries</labl>
+  </catgry>
+  <catgry>
+    <catValu>067</catValu>
+    <labl>Statisticians</labl>
+  </catgry>
+  <catgry>
+    <catValu>068</catValu>
+    <labl>Mathematicians and mathematical scientists</labl>
+  </catgry>
+  <catgry>
+    <catValu>069</catValu>
+    <labl>Physicists and astronomers</labl>
+  </catgry>
+  <catgry>
+    <catValu>073</catValu>
+    <labl>Chemists</labl>
+  </catgry>
+  <catgry>
+    <catValu>074</catValu>
+    <labl>Atmospheric and space scientists</labl>
+  </catgry>
+  <catgry>
+    <catValu>075</catValu>
+    <labl>Geologists</labl>
+  </catgry>
+  <catgry>
+    <catValu>076</catValu>
+    <labl>Physical scientists, n.e.c.</labl>
+  </catgry>
+  <catgry>
+    <catValu>077</catValu>
+    <labl>Agricultural and food scientists</labl>
+  </catgry>
+  <catgry>
+    <catValu>078</catValu>
+    <labl>Biological scientists</labl>
+  </catgry>
+  <catgry>
+    <catValu>079</catValu>
+    <labl>Foresters and conservation scientists</labl>
+  </catgry>
+  <catgry>
+    <catValu>083</catValu>
+    <labl>Medical scientists</labl>
+  </catgry>
+  <catgry>
+    <catValu>084</catValu>
+    <labl>Physicians</labl>
+  </catgry>
+  <catgry>
+    <catValu>085</catValu>
+    <labl>Dentists</labl>
+  </catgry>
+  <catgry>
+    <catValu>086</catValu>
+    <labl>Veterinarians</labl>
+  </catgry>
+  <catgry>
+    <catValu>087</catValu>
+    <labl>Optometrists</labl>
+  </catgry>
+  <catgry>
+    <catValu>088</catValu>
+    <labl>Podiatrists</labl>
+  </catgry>
+  <catgry>
+    <catValu>089</catValu>
+    <labl>Other health and therapy</labl>
+  </catgry>
+  <catgry>
+    <catValu>095</catValu>
+    <labl>Registered nurses</labl>
+  </catgry>
+  <catgry>
+    <catValu>096</catValu>
+    <labl>Pharmacists</labl>
+  </catgry>
+  <catgry>
+    <catValu>097</catValu>
+    <labl>Dietitians and nutritionists</labl>
+  </catgry>
+  <catgry>
+    <catValu>098</catValu>
+    <labl>Respiratory therapists</labl>
+  </catgry>
+  <catgry>
+    <catValu>099</catValu>
+    <labl>Occupational therapists</labl>
+  </catgry>
+  <catgry>
+    <catValu>103</catValu>
+    <labl>Physical therapists</labl>
+  </catgry>
+  <catgry>
+    <catValu>104</catValu>
+    <labl>Speech therapists</labl>
+  </catgry>
+  <catgry>
+    <catValu>105</catValu>
+    <labl>Therapists, n.e.c.</labl>
+  </catgry>
+  <catgry>
+    <catValu>106</catValu>
+    <labl>Physicians' assistants</labl>
+  </catgry>
+  <catgry>
+    <catValu>113</catValu>
+    <labl>Earth, environmental, and marine science instructors</labl>
+  </catgry>
+  <catgry>
+    <catValu>114</catValu>
+    <labl>Biological science instructors</labl>
+  </catgry>
+  <catgry>
+    <catValu>115</catValu>
+    <labl>Chemistry instructors</labl>
+  </catgry>
+  <catgry>
+    <catValu>116</catValu>
+    <labl>Physics instructors</labl>
+  </catgry>
+  <catgry>
+    <catValu>118</catValu>
+    <labl>Psychology instructors</labl>
+  </catgry>
+  <catgry>
+    <catValu>119</catValu>
+    <labl>Economics instructors</labl>
+  </catgry>
+  <catgry>
+    <catValu>123</catValu>
+    <labl>History instructors</labl>
+  </catgry>
+  <catgry>
+    <catValu>125</catValu>
+    <labl>Sociology instructors</labl>
+  </catgry>
+  <catgry>
+    <catValu>127</catValu>
+    <labl>Engineering instructors</labl>
+  </catgry>
+  <catgry>
+    <catValu>128</catValu>
+    <labl>Math instructors</labl>
+  </catgry>
+  <catgry>
+    <catValu>139</catValu>
+    <labl>Education instructors</labl>
+  </catgry>
+  <catgry>
+    <catValu>145</catValu>
+    <labl>Law instructors</labl>
+  </catgry>
+  <catgry>
+    <catValu>147</catValu>
+    <labl>Theology instructors</labl>
+  </catgry>
+  <catgry>
+    <catValu>149</catValu>
+    <labl>Home economics instructors</labl>
+  </catgry>
+  <catgry>
+    <catValu>150</catValu>
+    <labl>Humanities profs/instructors, college, nec</labl>
+  </catgry>
+  <catgry>
+    <catValu>154</catValu>
+    <labl>Subject instructors (HS/college)</labl>
+  </catgry>
+  <catgry>
+    <catValu>155</catValu>
+    <labl>Kindergarten and earlier school teachers</labl>
+  </catgry>
+  <catgry>
+    <catValu>156</catValu>
+    <labl>Primary school teachers</labl>
+  </catgry>
+  <catgry>
+    <catValu>157</catValu>
+    <labl>Secondary school teachers</labl>
+  </catgry>
+  <catgry>
+    <catValu>158</catValu>
+    <labl>Special education teachers</labl>
+  </catgry>
+  <catgry>
+    <catValu>159</catValu>
+    <labl>Teachers , n.e.c.</labl>
+  </catgry>
+  <catgry>
+    <catValu>163</catValu>
+    <labl>Vocational and educational counselors</labl>
+  </catgry>
+  <catgry>
+    <catValu>164</catValu>
+    <labl>Librarians</labl>
+  </catgry>
+  <catgry>
+    <catValu>165</catValu>
+    <labl>Archivists and curators</labl>
+  </catgry>
+  <catgry>
+    <catValu>166</catValu>
+    <labl>Economists, market researchers, and survey researchers</labl>
+  </catgry>
+  <catgry>
+    <catValu>167</catValu>
+    <labl>Psychologists</labl>
+  </catgry>
+  <catgry>
+    <catValu>168</catValu>
+    <labl>Sociologists</labl>
+  </catgry>
+  <catgry>
+    <catValu>169</catValu>
+    <labl>Social scientists, n.e.c.</labl>
+  </catgry>
+  <catgry>
+    <catValu>173</catValu>
+    <labl>Urban and regional planners</labl>
+  </catgry>
+  <catgry>
+    <catValu>174</catValu>
+    <labl>Social workers</labl>
+  </catgry>
+  <catgry>
+    <catValu>175</catValu>
+    <labl>Recreation workers</labl>
+  </catgry>
+  <catgry>
+    <catValu>176</catValu>
+    <labl>Clergy and religious workers</labl>
+  </catgry>
+  <catgry>
+    <catValu>178</catValu>
+    <labl>Lawyers</labl>
+  </catgry>
+  <catgry>
+    <catValu>179</catValu>
+    <labl>Judges</labl>
+  </catgry>
+  <catgry>
+    <catValu>183</catValu>
+    <labl>Writers and authors</labl>
+  </catgry>
+  <catgry>
+    <catValu>184</catValu>
+    <labl>Technical writers</labl>
+  </catgry>
+  <catgry>
+    <catValu>185</catValu>
+    <labl>Designers</labl>
+  </catgry>
+  <catgry>
+    <catValu>186</catValu>
+    <labl>Musician or composer</labl>
+  </catgry>
+  <catgry>
+    <catValu>187</catValu>
+    <labl>Actors, directors, producers</labl>
+  </catgry>
+  <catgry>
+    <catValu>188</catValu>
+    <labl>Art makers: painters, sculptors, craft-artists, and print-makers</labl>
+  </catgry>
+  <catgry>
+    <catValu>189</catValu>
+    <labl>Photographers</labl>
+  </catgry>
+  <catgry>
+    <catValu>193</catValu>
+    <labl>Dancers</labl>
+  </catgry>
+  <catgry>
+    <catValu>194</catValu>
+    <labl>Art/entertainment performers and related</labl>
+  </catgry>
+  <catgry>
+    <catValu>195</catValu>
+    <labl>Editors and reporters</labl>
+  </catgry>
+  <catgry>
+    <catValu>198</catValu>
+    <labl>Announcers</labl>
+  </catgry>
+  <catgry>
+    <catValu>199</catValu>
+    <labl>Athletes, sports instructors, and officials</labl>
+  </catgry>
+  <catgry>
+    <catValu>200</catValu>
+    <labl>Professionals, n.e.c.</labl>
+  </catgry>
+  <catgry>
+    <catValu>203</catValu>
+    <labl>Clinical laboratory technologies and technicians</labl>
+  </catgry>
+  <catgry>
+    <catValu>204</catValu>
+    <labl>Dental hygenists</labl>
+  </catgry>
+  <catgry>
+    <catValu>205</catValu>
+    <labl>Health record tech specialists</labl>
+  </catgry>
+  <catgry>
+    <catValu>206</catValu>
+    <labl>Radiologic tech specialists</labl>
+  </catgry>
+  <catgry>
+    <catValu>207</catValu>
+    <labl>Licensed practical nurses</labl>
+  </catgry>
+  <catgry>
+    <catValu>208</catValu>
+    <labl>Health technologists and technicians, n.e.c.</labl>
+  </catgry>
+  <catgry>
+    <catValu>213</catValu>
+    <labl>Electrical and electronic (engineering) technicians</labl>
+  </catgry>
+  <catgry>
+    <catValu>214</catValu>
+    <labl>Engineering technicians, n.e.c.</labl>
+  </catgry>
+  <catgry>
+    <catValu>215</catValu>
+    <labl>Mechanical engineering technicians</labl>
+  </catgry>
+  <catgry>
+    <catValu>217</catValu>
+    <labl>Drafters</labl>
+  </catgry>
+  <catgry>
+    <catValu>218</catValu>
+    <labl>Surveyors, cartographers, mapping scientists and technicians</labl>
+  </catgry>
+  <catgry>
+    <catValu>223</catValu>
+    <labl>Biological technicians</labl>
+  </catgry>
+  <catgry>
+    <catValu>224</catValu>
+    <labl>Chemical technicians</labl>
+  </catgry>
+  <catgry>
+    <catValu>225</catValu>
+    <labl>Other science technicians</labl>
+  </catgry>
+  <catgry>
+    <catValu>226</catValu>
+    <labl>Airplane pilots and navigators</labl>
+  </catgry>
+  <catgry>
+    <catValu>227</catValu>
+    <labl>Air traffic controllers</labl>
+  </catgry>
+  <catgry>
+    <catValu>228</catValu>
+    <labl>Broadcast equipment operators</labl>
+  </catgry>
+  <catgry>
+    <catValu>229</catValu>
+    <labl>Computer software developers</labl>
+  </catgry>
+  <catgry>
+    <catValu>233</catValu>
+    <labl>Programmers of numerically controlled machine tools</labl>
+  </catgry>
+  <catgry>
+    <catValu>234</catValu>
+    <labl>Legal assistants, paralegals, legal support, etc</labl>
+  </catgry>
+  <catgry>
+    <catValu>235</catValu>
+    <labl>Technicians, n.e.c.</labl>
+  </catgry>
+  <catgry>
+    <catValu>243</catValu>
+    <labl>Supervisors and proprietors of sales jobs</labl>
+  </catgry>
+  <catgry>
+    <catValu>253</catValu>
+    <labl>Insurance sales occupations</labl>
+  </catgry>
+  <catgry>
+    <catValu>254</catValu>
+    <labl>Real estate sales occupations</labl>
+  </catgry>
+  <catgry>
+    <catValu>255</catValu>
+    <labl>Financial services sales occupations</labl>
+  </catgry>
+  <catgry>
+    <catValu>256</catValu>
+    <labl>Advertising and related sales jobs</labl>
+  </catgry>
+  <catgry>
+    <catValu>258</catValu>
+    <labl>Sales engineers</labl>
+  </catgry>
+  <catgry>
+    <catValu>274</catValu>
+    <labl>Salespersons, n.e.c.</labl>
+  </catgry>
+  <catgry>
+    <catValu>275</catValu>
+    <labl>Retail sales clerks</labl>
+  </catgry>
+  <catgry>
+    <catValu>276</catValu>
+    <labl>Cashiers</labl>
+  </catgry>
+  <catgry>
+    <catValu>277</catValu>
+    <labl>Door-to-door sales, street sales, and news vendors</labl>
+  </catgry>
+  <catgry>
+    <catValu>283</catValu>
+    <labl>Sales demonstrators / promoters / models</labl>
+  </catgry>
+  <catgry>
+    <catValu>290</catValu>
+    <labl>Sales workers--allocated (1990 internal census)</labl>
+  </catgry>
+  <catgry>
+    <catValu>303</catValu>
+    <labl>Office supervisors</labl>
+  </catgry>
+  <catgry>
+    <catValu>308</catValu>
+    <labl>Computer and peripheral equipment operators</labl>
+  </catgry>
+  <catgry>
+    <catValu>313</catValu>
+    <labl>Secretaries</labl>
+  </catgry>
+  <catgry>
+    <catValu>314</catValu>
+    <labl>Stenographers</labl>
+  </catgry>
+  <catgry>
+    <catValu>315</catValu>
+    <labl>Typists</labl>
+  </catgry>
+  <catgry>
+    <catValu>316</catValu>
+    <labl>Interviewers, enumerators, and surveyors</labl>
+  </catgry>
+  <catgry>
+    <catValu>317</catValu>
+    <labl>Hotel clerks</labl>
+  </catgry>
+  <catgry>
+    <catValu>318</catValu>
+    <labl>Transportation ticket and reservation agents</labl>
+  </catgry>
+  <catgry>
+    <catValu>319</catValu>
+    <labl>Receptionists</labl>
+  </catgry>
+  <catgry>
+    <catValu>323</catValu>
+    <labl>Information clerks, nec</labl>
+  </catgry>
+  <catgry>
+    <catValu>326</catValu>
+    <labl>Correspondence and order clerks</labl>
+  </catgry>
+  <catgry>
+    <catValu>328</catValu>
+    <labl>Human resources clerks, except payroll and timekeeping</labl>
+  </catgry>
+  <catgry>
+    <catValu>329</catValu>
+    <labl>Library assistants</labl>
+  </catgry>
+  <catgry>
+    <catValu>335</catValu>
+    <labl>File clerks</labl>
+  </catgry>
+  <catgry>
+    <catValu>336</catValu>
+    <labl>Records clerks</labl>
+  </catgry>
+  <catgry>
+    <catValu>337</catValu>
+    <labl>Bookkeepers and accounting and auditing clerks</labl>
+  </catgry>
+  <catgry>
+    <catValu>338</catValu>
+    <labl>Payroll and timekeeping clerks</labl>
+  </catgry>
+  <catgry>
+    <catValu>343</catValu>
+    <labl>Cost and rate clerks (financial records processing)</labl>
+  </catgry>
+  <catgry>
+    <catValu>344</catValu>
+    <labl>Billing clerks and related financial records processing</labl>
+  </catgry>
+  <catgry>
+    <catValu>345</catValu>
+    <labl>Duplication machine operators / office machine operators</labl>
+  </catgry>
+  <catgry>
+    <catValu>346</catValu>
+    <labl>Mail and paper handlers</labl>
+  </catgry>
+  <catgry>
+    <catValu>347</catValu>
+    <labl>Office machine operators, n.e.c.</labl>
+  </catgry>
+  <catgry>
+    <catValu>348</catValu>
+    <labl>Telephone operators</labl>
+  </catgry>
+  <catgry>
+    <catValu>349</catValu>
+    <labl>Other telecom operators</labl>
+  </catgry>
+  <catgry>
+    <catValu>354</catValu>
+    <labl>Postal clerks, excluding mail carriers</labl>
+  </catgry>
+  <catgry>
+    <catValu>355</catValu>
+    <labl>Mail carriers for postal service</labl>
+  </catgry>
+  <catgry>
+    <catValu>356</catValu>
+    <labl>Mail clerks, outside of post office</labl>
+  </catgry>
+  <catgry>
+    <catValu>357</catValu>
+    <labl>Messengers</labl>
+  </catgry>
+  <catgry>
+    <catValu>359</catValu>
+    <labl>Dispatchers</labl>
+  </catgry>
+  <catgry>
+    <catValu>361</catValu>
+    <labl>Inspectors, n.e.c.</labl>
+  </catgry>
+  <catgry>
+    <catValu>364</catValu>
+    <labl>Shipping and receiving clerks</labl>
+  </catgry>
+  <catgry>
+    <catValu>365</catValu>
+    <labl>Stock and inventory clerks</labl>
+  </catgry>
+  <catgry>
+    <catValu>366</catValu>
+    <labl>Meter readers</labl>
+  </catgry>
+  <catgry>
+    <catValu>368</catValu>
+    <labl>Weighers, measurers, and checkers</labl>
+  </catgry>
+  <catgry>
+    <catValu>373</catValu>
+    <labl>Material recording, scheduling, production, planning, and expediting clerks</labl>
+  </catgry>
+  <catgry>
+    <catValu>375</catValu>
+    <labl>Insurance adjusters, examiners, and investigators</labl>
+  </catgry>
+  <catgry>
+    <catValu>376</catValu>
+    <labl>Customer service reps, investigators and adjusters, except insurance</labl>
+  </catgry>
+  <catgry>
+    <catValu>377</catValu>
+    <labl>Eligibility clerks for government programs; social welfare</labl>
+  </catgry>
+  <catgry>
+    <catValu>378</catValu>
+    <labl>Bill and account collectors</labl>
+  </catgry>
+  <catgry>
+    <catValu>379</catValu>
+    <labl>General office clerks</labl>
+  </catgry>
+  <catgry>
+    <catValu>383</catValu>
+    <labl>Bank tellers</labl>
+  </catgry>
+  <catgry>
+    <catValu>384</catValu>
+    <labl>Proofreaders</labl>
+  </catgry>
+  <catgry>
+    <catValu>385</catValu>
+    <labl>Data entry keyers</labl>
+  </catgry>
+  <catgry>
+    <catValu>386</catValu>
+    <labl>Statistical clerks</labl>
+  </catgry>
+  <catgry>
+    <catValu>387</catValu>
+    <labl>Teacher's aides</labl>
+  </catgry>
+  <catgry>
+    <catValu>389</catValu>
+    <labl>Administrative support jobs, n.e.c.</labl>
+  </catgry>
+  <catgry>
+    <catValu>390</catValu>
+    <labl>Professional, technical, and kindred workers--allocated (1990 internal census)</labl>
+  </catgry>
+  <catgry>
+    <catValu>391</catValu>
+    <labl>Clerical and kindred workers--allocated (1990 internal census)</labl>
+  </catgry>
+  <catgry>
+    <catValu>405</catValu>
+    <labl>Housekeepers, maids, butlers, stewards, and lodging quarters cleaners</labl>
+  </catgry>
+  <catgry>
+    <catValu>407</catValu>
+    <labl>Private household cleaners and servants</labl>
+  </catgry>
+  <catgry>
+    <catValu>408</catValu>
+    <labl>Private household workers--allocated (1990 internal census)</labl>
+  </catgry>
+  <catgry>
+    <catValu>415</catValu>
+    <labl>Supervisors of guards</labl>
+  </catgry>
+  <catgry>
+    <catValu>417</catValu>
+    <labl>Fire fighting, prevention, and inspection</labl>
+  </catgry>
+  <catgry>
+    <catValu>418</catValu>
+    <labl>Police, detectives, and private investigators</labl>
+  </catgry>
+  <catgry>
+    <catValu>423</catValu>
+    <labl>Other law enforcement: sheriffs, bailiffs, correctional institution officers</labl>
+  </catgry>
+  <catgry>
+    <catValu>425</catValu>
+    <labl>Crossing guards and bridge tenders</labl>
+  </catgry>
+  <catgry>
+    <catValu>426</catValu>
+    <labl>Guards, watchmen, doorkeepers</labl>
+  </catgry>
+  <catgry>
+    <catValu>427</catValu>
+    <labl>Protective services, n.e.c.</labl>
+  </catgry>
+  <catgry>
+    <catValu>434</catValu>
+    <labl>Bartenders</labl>
+  </catgry>
+  <catgry>
+    <catValu>435</catValu>
+    <labl>Waiter/waitress</labl>
+  </catgry>
+  <catgry>
+    <catValu>436</catValu>
+    <labl>Cooks, variously defined</labl>
+  </catgry>
+  <catgry>
+    <catValu>438</catValu>
+    <labl>Food counter and fountain workers</labl>
+  </catgry>
+  <catgry>
+    <catValu>439</catValu>
+    <labl>Kitchen workers</labl>
+  </catgry>
+  <catgry>
+    <catValu>443</catValu>
+    <labl>Waiter's assistant</labl>
+  </catgry>
+  <catgry>
+    <catValu>444</catValu>
+    <labl>Misc food prep workers</labl>
+  </catgry>
+  <catgry>
+    <catValu>445</catValu>
+    <labl>Dental assistants</labl>
+  </catgry>
+  <catgry>
+    <catValu>446</catValu>
+    <labl>Health aides, except nursing</labl>
+  </catgry>
+  <catgry>
+    <catValu>447</catValu>
+    <labl>Nursing aides, orderlies, and attendants</labl>
+  </catgry>
+  <catgry>
+    <catValu>448</catValu>
+    <labl>Supervisors of cleaning and building service</labl>
+  </catgry>
+  <catgry>
+    <catValu>453</catValu>
+    <labl>Janitors</labl>
+  </catgry>
+  <catgry>
+    <catValu>454</catValu>
+    <labl>Elevator operators</labl>
+  </catgry>
+  <catgry>
+    <catValu>455</catValu>
+    <labl>Pest control occupations</labl>
+  </catgry>
+  <catgry>
+    <catValu>456</catValu>
+    <labl>Supervisors of personal service jobs, n.e.c.</labl>
+  </catgry>
+  <catgry>
+    <catValu>457</catValu>
+    <labl>Barbers</labl>
+  </catgry>
+  <catgry>
+    <catValu>458</catValu>
+    <labl>Hairdressers and cosmetologists</labl>
+  </catgry>
+  <catgry>
+    <catValu>459</catValu>
+    <labl>Recreation facility attendants</labl>
+  </catgry>
+  <catgry>
+    <catValu>461</catValu>
+    <labl>Guides</labl>
+  </catgry>
+  <catgry>
+    <catValu>462</catValu>
+    <labl>Ushers</labl>
+  </catgry>
+  <catgry>
+    <catValu>463</catValu>
+    <labl>Public transportation attendants and inspectors</labl>
+  </catgry>
+  <catgry>
+    <catValu>464</catValu>
+    <labl>Baggage porters</labl>
+  </catgry>
+  <catgry>
+    <catValu>465</catValu>
+    <labl>Welfare service aides</labl>
+  </catgry>
+  <catgry>
+    <catValu>468</catValu>
+    <labl>Child care workers</labl>
+  </catgry>
+  <catgry>
+    <catValu>469</catValu>
+    <labl>Personal service occupations, nec</labl>
+  </catgry>
+  <catgry>
+    <catValu>473</catValu>
+    <labl>Farmers (owners and tenants)</labl>
+  </catgry>
+  <catgry>
+    <catValu>474</catValu>
+    <labl>Horticultural specialty farmers</labl>
+  </catgry>
+  <catgry>
+    <catValu>475</catValu>
+    <labl>Farm managers, except for horticultural farms</labl>
+  </catgry>
+  <catgry>
+    <catValu>476</catValu>
+    <labl>Managers of horticultural specialty farms</labl>
+  </catgry>
+  <catgry>
+    <catValu>479</catValu>
+    <labl>Farm workers</labl>
+  </catgry>
+  <catgry>
+    <catValu>480</catValu>
+    <labl>Farm laborers and farm foreman--allocated (1990 internal census)</labl>
+  </catgry>
+  <catgry>
+    <catValu>483</catValu>
+    <labl>Marine life cultivation workers</labl>
+  </catgry>
+  <catgry>
+    <catValu>484</catValu>
+    <labl>Nursery farming workers</labl>
+  </catgry>
+  <catgry>
+    <catValu>485</catValu>
+    <labl>Supervisors of agricultural occupations</labl>
+  </catgry>
+  <catgry>
+    <catValu>486</catValu>
+    <labl>Gardeners and groundskeepers</labl>
+  </catgry>
+  <catgry>
+    <catValu>487</catValu>
+    <labl>Animal caretakers except on farms</labl>
+  </catgry>
+  <catgry>
+    <catValu>488</catValu>
+    <labl>Graders and sorters of agricultural products</labl>
+  </catgry>
+  <catgry>
+    <catValu>489</catValu>
+    <labl>Inspectors of agricultural products</labl>
+  </catgry>
+  <catgry>
+    <catValu>496</catValu>
+    <labl>Timber, logging, and forestry workers</labl>
+  </catgry>
+  <catgry>
+    <catValu>498</catValu>
+    <labl>Fishers, hunters, and kindred</labl>
+  </catgry>
+  <catgry>
+    <catValu>503</catValu>
+    <labl>Supervisors of mechanics and repairers</labl>
+  </catgry>
+  <catgry>
+    <catValu>505</catValu>
+    <labl>Automobile mechanics</labl>
+  </catgry>
+  <catgry>
+    <catValu>507</catValu>
+    <labl>Bus, truck, and stationary engine mechanics</labl>
+  </catgry>
+  <catgry>
+    <catValu>508</catValu>
+    <labl>Aircraft mechanics</labl>
+  </catgry>
+  <catgry>
+    <catValu>509</catValu>
+    <labl>Small engine repairers</labl>
+  </catgry>
+  <catgry>
+    <catValu>514</catValu>
+    <labl>Auto body repairers</labl>
+  </catgry>
+  <catgry>
+    <catValu>516</catValu>
+    <labl>Heavy equipment and farm equipment mechanics</labl>
+  </catgry>
+  <catgry>
+    <catValu>518</catValu>
+    <labl>Industrial machinery repairers</labl>
+  </catgry>
+  <catgry>
+    <catValu>519</catValu>
+    <labl>Machinery maintenance occupations</labl>
+  </catgry>
+  <catgry>
+    <catValu>523</catValu>
+    <labl>Repairers of industrial electrical equipment</labl>
+  </catgry>
+  <catgry>
+    <catValu>525</catValu>
+    <labl>Repairers of data processing equipment</labl>
+  </catgry>
+  <catgry>
+    <catValu>526</catValu>
+    <labl>Repairers of household appliances and power tools</labl>
+  </catgry>
+  <catgry>
+    <catValu>527</catValu>
+    <labl>Telecom and line installers and repairers</labl>
+  </catgry>
+  <catgry>
+    <catValu>533</catValu>
+    <labl>Repairers of electrical equipment, n.e.c.</labl>
+  </catgry>
+  <catgry>
+    <catValu>534</catValu>
+    <labl>Heating, air conditioning, and refigeration mechanics</labl>
+  </catgry>
+  <catgry>
+    <catValu>535</catValu>
+    <labl>Precision makers, repairers, and smiths</labl>
+  </catgry>
+  <catgry>
+    <catValu>536</catValu>
+    <labl>Locksmiths and safe repairers</labl>
+  </catgry>
+  <catgry>
+    <catValu>538</catValu>
+    <labl>Office machine repairers and mechanics</labl>
+  </catgry>
+  <catgry>
+    <catValu>539</catValu>
+    <labl>Repairers of mechanical controls and valves</labl>
+  </catgry>
+  <catgry>
+    <catValu>543</catValu>
+    <labl>Elevator installers and repairers</labl>
+  </catgry>
+  <catgry>
+    <catValu>544</catValu>
+    <labl>Millwrights</labl>
+  </catgry>
+  <catgry>
+    <catValu>549</catValu>
+    <labl>Mechanics and repairers, n.e.c.</labl>
+  </catgry>
+  <catgry>
+    <catValu>558</catValu>
+    <labl>Supervisors of construction work</labl>
+  </catgry>
+  <catgry>
+    <catValu>563</catValu>
+    <labl>Masons, tilers, and carpet installers</labl>
+  </catgry>
+  <catgry>
+    <catValu>567</catValu>
+    <labl>Carpenters</labl>
+  </catgry>
+  <catgry>
+    <catValu>573</catValu>
+    <labl>Drywall installers</labl>
+  </catgry>
+  <catgry>
+    <catValu>575</catValu>
+    <labl>Electricians</labl>
+  </catgry>
+  <catgry>
+    <catValu>577</catValu>
+    <labl>Electric power installers and repairers</labl>
+  </catgry>
+  <catgry>
+    <catValu>579</catValu>
+    <labl>Painters, construction and maintenance</labl>
+  </catgry>
+  <catgry>
+    <catValu>583</catValu>
+    <labl>Paperhangers</labl>
+  </catgry>
+  <catgry>
+    <catValu>584</catValu>
+    <labl>Plasterers</labl>
+  </catgry>
+  <catgry>
+    <catValu>585</catValu>
+    <labl>Plumbers, pipe fitters, and steamfitters</labl>
+  </catgry>
+  <catgry>
+    <catValu>588</catValu>
+    <labl>Concrete and cement workers</labl>
+  </catgry>
+  <catgry>
+    <catValu>589</catValu>
+    <labl>Glaziers</labl>
+  </catgry>
+  <catgry>
+    <catValu>593</catValu>
+    <labl>Insulation workers</labl>
+  </catgry>
+  <catgry>
+    <catValu>594</catValu>
+    <labl>Paving, surfacing, and tamping equipment operators</labl>
+  </catgry>
+  <catgry>
+    <catValu>595</catValu>
+    <labl>Roofers and slaters</labl>
+  </catgry>
+  <catgry>
+    <catValu>596</catValu>
+    <labl>Sheet metal duct installers</labl>
+  </catgry>
+  <catgry>
+    <catValu>597</catValu>
+    <labl>Structural metal workers</labl>
+  </catgry>
+  <catgry>
+    <catValu>598</catValu>
+    <labl>Drillers of earth</labl>
+  </catgry>
+  <catgry>
+    <catValu>599</catValu>
+    <labl>Construction trades, n.e.c.</labl>
+  </catgry>
+  <catgry>
+    <catValu>614</catValu>
+    <labl>Drillers of oil wells</labl>
+  </catgry>
+  <catgry>
+    <catValu>615</catValu>
+    <labl>Explosives workers</labl>
+  </catgry>
+  <catgry>
+    <catValu>616</catValu>
+    <labl>Miners</labl>
+  </catgry>
+  <catgry>
+    <catValu>617</catValu>
+    <labl>Other mining occupations</labl>
+  </catgry>
+  <catgry>
+    <catValu>628</catValu>
+    <labl>Production supervisors or foremen</labl>
+  </catgry>
+  <catgry>
+    <catValu>634</catValu>
+    <labl>Tool and die makers and die setters</labl>
+  </catgry>
+  <catgry>
+    <catValu>637</catValu>
+    <labl>Machinists</labl>
+  </catgry>
+  <catgry>
+    <catValu>643</catValu>
+    <labl>Boilermakers</labl>
+  </catgry>
+  <catgry>
+    <catValu>644</catValu>
+    <labl>Precision grinders and filers</labl>
+  </catgry>
+  <catgry>
+    <catValu>645</catValu>
+    <labl>Patternmakers and model makers</labl>
+  </catgry>
+  <catgry>
+    <catValu>646</catValu>
+    <labl>Lay-out workers</labl>
+  </catgry>
+  <catgry>
+    <catValu>649</catValu>
+    <labl>Engravers</labl>
+  </catgry>
+  <catgry>
+    <catValu>653</catValu>
+    <labl>Tinsmiths, coppersmiths, and sheet metal workers</labl>
+  </catgry>
+  <catgry>
+    <catValu>657</catValu>
+    <labl>Cabinetmakers and bench carpenters</labl>
+  </catgry>
+  <catgry>
+    <catValu>658</catValu>
+    <labl>Furniture and wood finishers</labl>
+  </catgry>
+  <catgry>
+    <catValu>659</catValu>
+    <labl>Other precision woodworkers</labl>
+  </catgry>
+  <catgry>
+    <catValu>666</catValu>
+    <labl>Dressmakers and seamstresses</labl>
+  </catgry>
+  <catgry>
+    <catValu>667</catValu>
+    <labl>Tailors</labl>
+  </catgry>
+  <catgry>
+    <catValu>668</catValu>
+    <labl>Upholsterers</labl>
+  </catgry>
+  <catgry>
+    <catValu>669</catValu>
+    <labl>Shoe repairers</labl>
+  </catgry>
+  <catgry>
+    <catValu>674</catValu>
+    <labl>Other precision apparel and fabric workers</labl>
+  </catgry>
+  <catgry>
+    <catValu>675</catValu>
+    <labl>Hand molders and shapers, except jewelers</labl>
+  </catgry>
+  <catgry>
+    <catValu>677</catValu>
+    <labl>Optical goods workers</labl>
+  </catgry>
+  <catgry>
+    <catValu>678</catValu>
+    <labl>Dental laboratory and medical appliance technicians</labl>
+  </catgry>
+  <catgry>
+    <catValu>679</catValu>
+    <labl>Bookbinders</labl>
+  </catgry>
+  <catgry>
+    <catValu>684</catValu>
+    <labl>Other precision and craft workers</labl>
+  </catgry>
+  <catgry>
+    <catValu>686</catValu>
+    <labl>Butchers and meat cutters</labl>
+  </catgry>
+  <catgry>
+    <catValu>687</catValu>
+    <labl>Bakers</labl>
+  </catgry>
+  <catgry>
+    <catValu>688</catValu>
+    <labl>Batch food makers</labl>
+  </catgry>
+  <catgry>
+    <catValu>693</catValu>
+    <labl>Adjusters and calibrators</labl>
+  </catgry>
+  <catgry>
+    <catValu>694</catValu>
+    <labl>Water and sewage treatment plant operators</labl>
+  </catgry>
+  <catgry>
+    <catValu>695</catValu>
+    <labl>Power plant operators</labl>
+  </catgry>
+  <catgry>
+    <catValu>696</catValu>
+    <labl>Plant and system operators, stationary engineers</labl>
+  </catgry>
+  <catgry>
+    <catValu>699</catValu>
+    <labl>Other plant and system operators</labl>
+  </catgry>
+  <catgry>
+    <catValu>703</catValu>
+    <labl>Lathe, milling, and turning machine operatives</labl>
+  </catgry>
+  <catgry>
+    <catValu>706</catValu>
+    <labl>Punching and stamping press operatives</labl>
+  </catgry>
+  <catgry>
+    <catValu>707</catValu>
+    <labl>Rollers, roll hands, and finishers of metal</labl>
+  </catgry>
+  <catgry>
+    <catValu>708</catValu>
+    <labl>Drilling and boring machine operators</labl>
+  </catgry>
+  <catgry>
+    <catValu>709</catValu>
+    <labl>Grinding, abrading, buffing, and polishing workers</labl>
+  </catgry>
+  <catgry>
+    <catValu>713</catValu>
+    <labl>Forge and hammer operators</labl>
+  </catgry>
+  <catgry>
+    <catValu>717</catValu>
+    <labl>Fabricating machine operators, n.e.c.</labl>
+  </catgry>
+  <catgry>
+    <catValu>719</catValu>
+    <labl>Molders, and casting machine operators</labl>
+  </catgry>
+  <catgry>
+    <catValu>723</catValu>
+    <labl>Metal platers</labl>
+  </catgry>
+  <catgry>
+    <catValu>724</catValu>
+    <labl>Heat treating equipment operators</labl>
+  </catgry>
+  <catgry>
+    <catValu>726</catValu>
+    <labl>Wood lathe, routing, and planing machine operators</labl>
+  </catgry>
+  <catgry>
+    <catValu>727</catValu>
+    <labl>Sawing machine operators and sawyers</labl>
+  </catgry>
+  <catgry>
+    <catValu>728</catValu>
+    <labl>Shaping and joining machine operator (woodworking)</labl>
+  </catgry>
+  <catgry>
+    <catValu>729</catValu>
+    <labl>Nail and tacking machine operators  (woodworking)</labl>
+  </catgry>
+  <catgry>
+    <catValu>733</catValu>
+    <labl>Other woodworking machine operators</labl>
+  </catgry>
+  <catgry>
+    <catValu>734</catValu>
+    <labl>Printing machine operators, n.e.c.</labl>
+  </catgry>
+  <catgry>
+    <catValu>735</catValu>
+    <labl>Photoengravers and lithographers</labl>
+  </catgry>
+  <catgry>
+    <catValu>736</catValu>
+    <labl>Typesetters and compositors</labl>
+  </catgry>
+  <catgry>
+    <catValu>738</catValu>
+    <labl>Winding and twisting textile/apparel operatives</labl>
+  </catgry>
+  <catgry>
+    <catValu>739</catValu>
+    <labl>Knitters, loopers, and toppers textile operatives</labl>
+  </catgry>
+  <catgry>
+    <catValu>743</catValu>
+    <labl>Textile cutting machine operators</labl>
+  </catgry>
+  <catgry>
+    <catValu>744</catValu>
+    <labl>Textile sewing machine operators</labl>
+  </catgry>
+  <catgry>
+    <catValu>745</catValu>
+    <labl>Shoemaking machine operators</labl>
+  </catgry>
+  <catgry>
+    <catValu>747</catValu>
+    <labl>Pressing machine operators (clothing)</labl>
+  </catgry>
+  <catgry>
+    <catValu>748</catValu>
+    <labl>Laundry workers</labl>
+  </catgry>
+  <catgry>
+    <catValu>749</catValu>
+    <labl>Misc textile machine operators</labl>
+  </catgry>
+  <catgry>
+    <catValu>753</catValu>
+    <labl>Cementing and gluing maching operators</labl>
+  </catgry>
+  <catgry>
+    <catValu>754</catValu>
+    <labl>Packers, fillers, and wrappers</labl>
+  </catgry>
+  <catgry>
+    <catValu>755</catValu>
+    <labl>Extruding and forming machine operators</labl>
+  </catgry>
+  <catgry>
+    <catValu>756</catValu>
+    <labl>Mixing and blending machine operatives</labl>
+  </catgry>
+  <catgry>
+    <catValu>757</catValu>
+    <labl>Separating, filtering, and clarifying machine operators</labl>
+  </catgry>
+  <catgry>
+    <catValu>759</catValu>
+    <labl>Painting machine operators</labl>
+  </catgry>
+  <catgry>
+    <catValu>763</catValu>
+    <labl>Roasting and baking machine operators (food)</labl>
+  </catgry>
+  <catgry>
+    <catValu>764</catValu>
+    <labl>Washing, cleaning, and pickling machine operators</labl>
+  </catgry>
+  <catgry>
+    <catValu>765</catValu>
+    <labl>Paper folding machine operators</labl>
+  </catgry>
+  <catgry>
+    <catValu>766</catValu>
+    <labl>Furnace, kiln, and oven operators, apart from food</labl>
+  </catgry>
+  <catgry>
+    <catValu>768</catValu>
+    <labl>Crushing and grinding machine operators</labl>
+  </catgry>
+  <catgry>
+    <catValu>769</catValu>
+    <labl>Slicing and cutting machine operators</labl>
+  </catgry>
+  <catgry>
+    <catValu>773</catValu>
+    <labl>Motion picture projectionists</labl>
+  </catgry>
+  <catgry>
+    <catValu>774</catValu>
+    <labl>Photographic process workers</labl>
+  </catgry>
+  <catgry>
+    <catValu>779</catValu>
+    <labl>Machine operators, n.e.c.</labl>
+  </catgry>
+  <catgry>
+    <catValu>783</catValu>
+    <labl>Welders and metal cutters</labl>
+  </catgry>
+  <catgry>
+    <catValu>784</catValu>
+    <labl>Solderers</labl>
+  </catgry>
+  <catgry>
+    <catValu>785</catValu>
+    <labl>Assemblers of electrical equipment</labl>
+  </catgry>
+  <catgry>
+    <catValu>789</catValu>
+    <labl>Hand painting, coating, and decorating occupations</labl>
+  </catgry>
+  <catgry>
+    <catValu>796</catValu>
+    <labl>Production checkers and inspectors</labl>
+  </catgry>
+  <catgry>
+    <catValu>799</catValu>
+    <labl>Graders and sorters in manufacturing</labl>
+  </catgry>
+  <catgry>
+    <catValu>803</catValu>
+    <labl>Supervisors of motor vehicle transportation</labl>
+  </catgry>
+  <catgry>
+    <catValu>804</catValu>
+    <labl>Truck, delivery, and tractor drivers</labl>
+  </catgry>
+  <catgry>
+    <catValu>808</catValu>
+    <labl>Bus drivers</labl>
+  </catgry>
+  <catgry>
+    <catValu>809</catValu>
+    <labl>Taxi cab drivers and chauffeurs</labl>
+  </catgry>
+  <catgry>
+    <catValu>813</catValu>
+    <labl>Parking lot attendants</labl>
+  </catgry>
+  <catgry>
+    <catValu>815</catValu>
+    <labl>Transport equipment operatives--allocated (1990 internal census)</labl>
+  </catgry>
+  <catgry>
+    <catValu>823</catValu>
+    <labl>Railroad conductors and yardmasters</labl>
+  </catgry>
+  <catgry>
+    <catValu>824</catValu>
+    <labl>Locomotive operators (engineers and firemen)</labl>
+  </catgry>
+  <catgry>
+    <catValu>825</catValu>
+    <labl>Railroad brake, coupler, and switch operators</labl>
+  </catgry>
+  <catgry>
+    <catValu>829</catValu>
+    <labl>Ship crews and marine engineers</labl>
+  </catgry>
+  <catgry>
+    <catValu>834</catValu>
+    <labl>Water transport infrastructure tenders and crossing guards</labl>
+  </catgry>
+  <catgry>
+    <catValu>844</catValu>
+    <labl>Operating engineers of construction equipment</labl>
+  </catgry>
+  <catgry>
+    <catValu>848</catValu>
+    <labl>Crane, derrick, winch, and hoist operators</labl>
+  </catgry>
+  <catgry>
+    <catValu>853</catValu>
+    <labl>Excavating and loading machine operators</labl>
+  </catgry>
+  <catgry>
+    <catValu>859</catValu>
+    <labl>Misc material moving occupations</labl>
+  </catgry>
+  <catgry>
+    <catValu>865</catValu>
+    <labl>Helpers, constructions</labl>
+  </catgry>
+  <catgry>
+    <catValu>866</catValu>
+    <labl>Helpers, surveyors</labl>
+  </catgry>
+  <catgry>
+    <catValu>869</catValu>
+    <labl>Construction laborers</labl>
+  </catgry>
+  <catgry>
+    <catValu>874</catValu>
+    <labl>Production helpers</labl>
+  </catgry>
+  <catgry>
+    <catValu>875</catValu>
+    <labl>Garbage and recyclable material collectors</labl>
+  </catgry>
+  <catgry>
+    <catValu>876</catValu>
+    <labl>Materials movers: stevedores and longshore workers</labl>
+  </catgry>
+  <catgry>
+    <catValu>877</catValu>
+    <labl>Stock handlers</labl>
+  </catgry>
+  <catgry>
+    <catValu>878</catValu>
+    <labl>Machine feeders and offbearers</labl>
+  </catgry>
+  <catgry>
+    <catValu>883</catValu>
+    <labl>Freight, stock, and materials handlers</labl>
+  </catgry>
+  <catgry>
+    <catValu>885</catValu>
+    <labl>Garage and service station related occupations</labl>
+  </catgry>
+  <catgry>
+    <catValu>887</catValu>
+    <labl>Vehicle washers and equipment cleaners</labl>
+  </catgry>
+  <catgry>
+    <catValu>888</catValu>
+    <labl>Packers and packagers by hand</labl>
+  </catgry>
+  <catgry>
+    <catValu>889</catValu>
+    <labl>Laborers outside construction</labl>
+  </catgry>
+  <catgry>
+    <catValu>890</catValu>
+    <labl>Laborers, except farm--allocated (1990 internal census)</labl>
+  </catgry>
+  <catgry>
+    <catValu>905</catValu>
+    <labl>Military</labl>
+  </catgry>
+  <catgry>
+    <catValu>999</catValu>
+    <labl>NIU</labl>
+  </catgry>
+  <concept vocab="IPUMS">Work Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+<var ID="INCWAGE" dcml="0" files="ExtractData" intrvl="contin" name="INCWAGE">
+  <location EndPos="95" StartPos="88" width="8"/>
+  <labl>Wage and salary income</labl>
+  <txt><![CDATA[INCWAGE indicates each respondent's total pre-tax wage and salary income--that is, money received as an employee--for the previous calendar year.  
+
+For ASEC samples 1988-onward, INCWAGE is derived from a Census recode variable.  The topcoded components of INCWAGE are OINCWAGE and INCLONGJ.  OINCWAGE  is always a component of INCWAGE.  When SRCEARN indicates that INCLONGJ is earned from wage and salary, INCLONGJ is an additional component of INCWAGE.
+
+Amounts are expressed as they were reported to the interviewer; users must adjust for inflation using Consumer Price Index adjustment factors or the Adjust Monetary Values tool. Inflation-adjusted versions created with the Adjust Monetary Values tool will use the default reference year for the sample (i.e., survey year [YEAR] for basic monthly and previous year [YEAR-1] for ASEC).]]></txt>
+  <codInstr><![CDATA[Codes99999999 = N.I.U. (Not in Universe)
+99999998 = Missing (1962-1966 only)
+
+The Census Bureau applies different disclosure avoidance measures across time for individuals with high income in this variable. See our detailed explanations of these methods, topcodes, and replacement value and swap value thresholds for more information on disclosure avoidance measures in CPS income data.]]></codInstr>
+  <concept vocab="IPUMS">Income Variables -- PERSON</concept>
+  <varFormat schema="other" type="numeric"/>
+</var>
+</dataDscr>
+</codeBook>
