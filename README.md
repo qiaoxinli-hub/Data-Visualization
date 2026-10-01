@@ -154,21 +154,26 @@ The figure shows both the median earnings level in 2023 and the percentage chang
 
 ## Project Structure
 
-Data-Visualization/
-│
-├── README.md
-├── blog3.qmd
-├── blog3.html
-│
-├── data/
-│   └── [data files]
-│
-├── code/
-│   └── [R scripts]
-│
-└── figures/
-    ├── figure1.png
-    ├── figure2.png
-    ├── figure3.png
-    └── figure4.png
+The repository is organized into the following main components:
 
+- **`README.md`**  
+  Provides an overview of the project, including the research questions, data source, sample selection, occupational classification, methodology, visualizations, and limitations.
+
+- **`blog3.qmd`**  
+  Contains the main Quarto source file for the project. It includes the data analysis, written discussion, and code used to generate the visualizations.
+
+- **`blog3.html`**  
+  Contains the rendered HTML version of the Quarto blog post.
+
+- **`cps_00001.xml/`**  
+  Contains the data files or data-related materials used in the project. The original IPUMS CPS microdata are not included because the data are accessed through IPUMS.
+
+- **`data extraction.R/`**  
+  Contains the R scripts used for data extraction, cleaning, variable construction, statistical calculations, and visualization.
+
+- **`figures/`**  
+  Contains the four main figures used in the analysis:
+  - `figure1.png` — U.S. job polarization
+  - `figure2.png` — Occupational structure
+  - `figure3.png` — Cumulative real wage growth
+  - `figure4.png` — Changes in real median earnings
