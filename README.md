@@ -66,9 +66,13 @@ Occupations are grouped into four broad categories based on task characteristics
 | Non-Routine Manual    | Food service, personal care, household services, security, and other service occupations |
 
 The groups are assigned using ranges of the OCC1990 occupation code:
+
 Non-Routine Cognitive: OCC1990 3–235
+
 Routine Cognitive: OCC1990 243–389
+
 Non-Routine Manual: OCC1990 403–469
+
 Routine Manual: OCC1990 503–889
 
 ## Excluded Occupations
